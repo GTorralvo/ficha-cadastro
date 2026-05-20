@@ -7,16 +7,16 @@ body {
 .topo {
     display: flex;
     width: 1000px;
-    background-color: #0000ff;
+    background-color: #133b79;
     border-radius: 10px;
     margin: auto;
     margin-top: 40px;
-    padding: 25px;
+    padding: 25px;  
     color: #fff;
 }
 
 .topo img {
-    width: 50px;
+    width: 100px;
 }
 
 .image {
