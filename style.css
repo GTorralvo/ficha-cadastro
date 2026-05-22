@@ -2,7 +2,9 @@ body {
    margin: 0;
    padding: 0;
    background-color: #efefef;
+   font-family: Arial, Helvetica, sans-serif;
 }
+
 
 .topo {
     display: flex;
@@ -29,4 +31,33 @@ body {
 .cadastro-topo {
     flex: 4;
 
+}   
+
+.documentos-necessarios {
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    background-color: #FEF8E8;
+    padding: 25px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: #F8DEC0;
+}
+
+.image-doc {
+    flex: 1;
+}
+
+.dados-left {
+    flex: 2;
+}
+
+.dados-right {
+    flex: 2;
+}
+
+.dados-left h1 {
+    font-size: 17px;
+    color: #d46211;
 }
