@@ -43,10 +43,23 @@ body {
     border-radius: 10px;
     border-width: 5px;
     border-color: #F8DEC0;
+    border: 2px solid #d4621160;
+    flex-direction: column;
+}
+
+.documentos-necessarios h2{
+    margin-left: 224px;
+}
+
+.colunas {
+    display: flex;
 }
 
 .image-doc {
     flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .dados-left {
@@ -59,5 +72,14 @@ body {
 
 .dados-left h1 {
     font-size: 17px;
+    color: #d46211;
+}
+
+.documentos-necessarios img {
+    width: 90px;
+}
+
+.documentos-necessarios h2 {
+    font-size: 21px;
     color: #d46211;
 }
