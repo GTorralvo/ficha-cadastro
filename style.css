@@ -45,7 +45,7 @@ body {
     border-color: #F8DEC0;
     border: 2px solid #d4621160;
     flex-direction: column;
-    border-left: 13px solid #d4621160;
+    border-left: 13px solid #db620bc2;
 }
 
 .documentos-necessarios h2{
@@ -145,5 +145,5 @@ body {
 .linha {
     display: flex;
     width: 950px;
-    gap: 15px;
+    gap: 20px;
 }
